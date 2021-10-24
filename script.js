@@ -302,7 +302,6 @@ let userexist2 = document.getElementById("userpop2");
 })
 .catch((err) =>{
 console.log('err:', err);
-
 });
 }
 
