@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="OIP.jpg" type="image/png">
+    <title>Virtual World</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div id="pic">
+        <div class="logo">Virtual World</div>
+    
+      </div>
+      <div>
+        <input oninput="debounce(main,1000)" type="text" id="movie" placeholder="Enter movie name" />
+        <div class="both">
+        <div id="sign">Register</div>
+        <div id="signout">Sign Out</div></div>
+        <div id="movies"></div>
+      </div>
+      <div id="listc"></div>
+      <h2 style="margin-left: 2%">Popular Movies</h2>
+      <div id="popural"></div>
+      <div id="pop">
+        <div id="inner">
+          <div id="close">+</div>
+          <div id="backtosign">🔙</div>
+          <div id="signup">
+            <h1>Virtual World</h1>
+            <h1>Signup</h1>
+            <div id="userpop"></div>
+            <form onsubmit="Signup(event)" id="signup-form">
+              <input type="text" id="name" placeholder="name" />
+              <input type="text" id="email" placeholder="email" />
+              <input type="password" id="password" placeholder="password" />
+              <input type="text" id="username" placeholder="username" />
+              <input type="number" id="mobile" placeholder="mobile" />
+              <input type="text" id="description" placeholder="description" />
+              <input type="submit" class="btn" />
+              <div id="login">Login Here</div>
+               
+            </form>
+            </div>
+          <div id="signin">
+            <h1>Virtual World</h1>
+          <h1>login</h1>
+          <div id="userpop2"></div>
+          <form onsubmit="logins(event)" id="signin-form">
+          <input type="text" id="user" placeholder="username" />
+          <input type="password" id="pass" placeholder="password" />
+          <input type="submit" class="btn" />
+          
+          </form>
+      </div>
+        </div>
+      </div>
+    
+</body>
+</html>
+<script src="script.js"></script>
